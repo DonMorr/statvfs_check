@@ -12,7 +12,8 @@ To compile, simply run one of the following depending if you are cross or native
 ./statfs_check /media/file_system_to_check
 
 ## Example Output
-
+The following is example of the command being run on a mounted MMC partition: 
+```
 # ~/statfs_check /media/mounted_fs/
 statvfs'ing /media/mounted_fs/
         f_bsize: 1024
@@ -22,3 +23,4 @@ statvfs'ing /media/mounted_fs/
         f_files: 1904640
         f_ffree: 1104044
         f_favail: 1104044
+```
