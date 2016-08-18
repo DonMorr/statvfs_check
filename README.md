@@ -10,3 +10,15 @@ To compile, simply run one of the following depending if you are cross or native
 
 ## To run
 ./statfs_check /media/file_system_to_check
+
+## Example Output
+
+# ~/statfs_check /media/mounted_fs/
+statvfs'ing /media/mounted_fs/
+        f_bsize: 1024
+        f_blocks: 7344362
+        f_bfree: 6457929
+        f_bavail: 6072957
+        f_files: 1904640
+        f_ffree: 1104044
+        f_favail: 1104044
